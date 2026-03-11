@@ -6,7 +6,7 @@ Welcome to the Foreign Function & Memory API playground. This repository teaches
 
 - [Getting Started](getting-started.md)
 - [Tutorials](tutorials/index.md)
-- [Migration Guide](migration/jep-424-to-java-25.md)
+- [Migration Guide](migration/jep-424-to-java-22.md)
 - [Cheatsheet](reference/cheatsheet.md)
 - [Troubleshooting](reference/troubleshooting.md)
 - [Benchmark Notes](tutorials/09-jmh-and-performance.md)
@@ -16,7 +16,7 @@ Welcome to the Foreign Function & Memory API playground. This repository teaches
 1. Read [Getting Started](getting-started.md) to build and run the repo.
 2. Use [Cheatsheet](reference/cheatsheet.md) as the working API reference while reading code.
 3. Walk through the chapter docs in `tutorials/`.
-4. Use the [Migration Guide](migration/jep-424-to-java-25.md) when translating older JEP 424 examples.
+4. Use the [Migration Guide](migration/jep-424-to-java-22.md) when translating older JEP 424 examples.
 
 ## Tutorial Chapters
 

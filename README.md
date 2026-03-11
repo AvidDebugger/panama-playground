@@ -55,14 +55,14 @@ java-panama/
 4. **Structs** – `PointLayout`, `MemoryLayout.structLayout`, VarHandles
 5. **Performance** – `PerfDowncalls`, memory copy, allocation strategies
 
-See [Tutorials index](docs/tutorials/index.md) for detailed walkthroughs and [docs/migration/jep-424-to-java-25.md](docs/migration/jep-424-to-java-25.md) for JEP 424 → java 22 mapping.
+See [Tutorials index](docs/tutorials/index.md) for detailed walkthroughs and [docs/migration/jep-424-to-java-22.md](docs/migration/jep-424-to-java-22.md) for JEP 424 → java 22 mapping.
 
 ## Documentation
 
 - [Getting Started](docs/getting-started.md)
 - [FFM Cheatsheet](docs/reference/cheatsheet.md)
 - [Troubleshooting](docs/reference/troubleshooting.md)
-- [JEP 424 to java 22 Migration Guide](docs/migration/jep-424-to-java-25.md)
+- [JEP 424 to java 22 Migration Guide](docs/migration/jep-424-to-java-22.md)
 - [Benchmark Notes](docs/tutorials/09-jmh-and-performance.md)
 
 ## Benchmarks
@@ -93,7 +93,7 @@ Results are written to `ffm-benchmarks/build/reports/jmh/`.
 | `MemoryAddress` | `MemorySegment` (pointer-like) |
 | `SymbolLookup.libraryLookup(name, loader)` | `SymbolLookup.libraryLookup(name, Arena)` |
 
-See [docs/migration/jep-424-to-java-25.md](docs/migration/jep-424-to-java-25.md) for the full mapping.
+See [docs/migration/jep-424-to-java-22.md](docs/migration/jep-424-to-java-22.md) for the full mapping.
 
 ## License
 
