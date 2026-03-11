@@ -1,6 +1,6 @@
 # Java 25 Foreign Function & Memory API Playground
 
-A learning repository for the **Foreign Function & Memory (FFM) API** in Java 25, with performance benchmarks and educational examples. The API was finalized in Java 22 (JEP 454); this playground uses the final `java.lang.foreign` package and maps concepts back to the original JEP 424 preview.
+A learning repository for the **Foreign Function & Memory (FFM) API** in java 22, with performance benchmarks and educational examples. The API was finalized in Java 22 (JEP 454); this playground uses the final `java.lang.foreign` package and maps concepts back to the original JEP 424 preview.
 
 ## Prerequisites
 
@@ -55,14 +55,14 @@ java-panama/
 4. **Structs** – `PointLayout`, `MemoryLayout.structLayout`, VarHandles
 5. **Performance** – `PerfDowncalls`, memory copy, allocation strategies
 
-See [Tutorials index](docs/tutorials/index.md) for detailed walkthroughs and [docs/migration/jep-424-to-java-25.md](docs/migration/jep-424-to-java-25.md) for JEP 424 → Java 25 mapping.
+See [Tutorials index](docs/tutorials/index.md) for detailed walkthroughs and [docs/migration/jep-424-to-java-25.md](docs/migration/jep-424-to-java-25.md) for JEP 424 → java 22 mapping.
 
 ## Documentation
 
 - [Getting Started](docs/getting-started.md)
 - [FFM Cheatsheet](docs/reference/cheatsheet.md)
 - [Troubleshooting](docs/reference/troubleshooting.md)
-- [JEP 424 to Java 25 Migration Guide](docs/migration/jep-424-to-java-25.md)
+- [JEP 424 to java 22 Migration Guide](docs/migration/jep-424-to-java-25.md)
 - [Benchmark Notes](docs/tutorials/09-jmh-and-performance.md)
 
 ## Benchmarks
@@ -83,9 +83,9 @@ Run with:
 
 Results are written to `ffm-benchmarks/build/reports/jmh/`.
 
-## JEP 424 → Java 25 Mapping
+## JEP 424 → java 22 Mapping
 
-| JEP 424 (Preview) | Java 25 (Final) |
+| JEP 424 (Preview) | java 22 (Final) |
 |-------------------|-----------------|
 | `MemorySession` | `Arena` |
 | `CLinker` | `Linker.nativeLinker()` |

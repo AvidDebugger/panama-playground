@@ -1,6 +1,6 @@
 # Java 25 FFM Playground
 
-Welcome to the Foreign Function & Memory API playground. This repository teaches the final Java 25 API while mapping concepts back to JEP 424.
+Welcome to the Foreign Function & Memory API playground. This repository teaches the final java 22 API while mapping concepts back to JEP 424.
 
 ## Contents
 

@@ -1,6 +1,6 @@
 # FFM API Cheatsheet
 
-Practical quick reference for the final Java 25 `java.lang.foreign` API.
+Practical quick reference for the final java 22 `java.lang.foreign` API.
 
 ## Mental Model
 
@@ -342,7 +342,7 @@ This repository configures the flag automatically for tests and benchmarks.
 
 ## JEP 424 Quick Map
 
-| JEP 424 | Java 25 |
+| JEP 424 | java 22 |
 |---|---|
 | `MemorySession` | `Arena` |
 | `CLinker` | `Linker.nativeLinker()` |
