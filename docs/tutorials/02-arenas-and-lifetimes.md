@@ -113,4 +113,4 @@ The design goal stayed the same: explicit, scoped ownership of native memory.
 ## Try Next
 
 - read `03-layouts-varhandles-and-structs.md` to see how memory bytes become meaningful native structures
-- compare this chapter with the JEP 424 mapping in `docs/migration/jep-424-to-java-25.md`
+- compare this chapter with the JEP 424 mapping in `docs/migration/jep-424-to-java-22.md`
