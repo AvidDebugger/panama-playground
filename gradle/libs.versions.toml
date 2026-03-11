@@ -1,0 +1,13 @@
+[versions]
+junit = "6.0.1"
+assertj = "3.27.7"
+jmh-plugin = "0.7.3"
+
+[libraries]
+junit-bom = { group = "org.junit", name = "junit-bom", version.ref = "junit" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter" }
+junit-platform-launcher = { group = "org.junit.platform", name = "junit-platform-launcher" }
+assertj-core = { group = "org.assertj", name = "assertj-core", version.ref = "assertj" }
+
+[plugins]
+jmh-plugin = { id = "me.champeau.jmh", version.ref = "jmh-plugin" }
