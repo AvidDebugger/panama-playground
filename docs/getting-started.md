@@ -50,4 +50,4 @@ The FFM API requires `--enable-native-access=ALL-UNNAMED` for restricted methods
 
 - [Cheatsheet](reference/cheatsheet.md) for the everyday API reference
 - [Troubleshooting](reference/troubleshooting.md) for common setup and runtime issues
-- [JEP 424 to Java 25 Migration Guide](migration/jep-424-to-java-25.md) for older preview-era examples
+- [JEP 424 to java 22 Migration Guide](migration/jep-424-to-java-25.md) for older preview-era examples
